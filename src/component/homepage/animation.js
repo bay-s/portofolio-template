@@ -4,7 +4,7 @@ const Animation = () => {
     const dummyArray = Array.from({ length: 30});  
     return(
     <Fragment>
-     <div className="overflow-hidden">
+     <div className="overflow-hidden sm:block hidden">
             {
       dummyArray.map((_, index) => {
         // Perform the operation here

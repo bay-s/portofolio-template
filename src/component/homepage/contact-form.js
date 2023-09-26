@@ -36,7 +36,7 @@ const ContactForm = () => {
    e.preventDefault()
      try{
           const record = await client.items.create({
-               itemType: "YOUR_MODEL_ID",
+               itemType: "2325097",
                name: contact.name,
                email: contact.email,
                subject: contact.subject,

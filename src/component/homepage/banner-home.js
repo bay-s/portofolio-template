@@ -29,7 +29,8 @@ const BannerHome = () => {
       }
     </h3></li>
   </ul>
- 
+    
+  <h3 className="dark:text-slate-100 mt-5 font-medium text-sm cursor-default sm:text-lg  px-1">Front end / Wordpress Developer</h3>
  </article>
     )
 }
